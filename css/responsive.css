@@ -49,7 +49,7 @@
   left: -353px;
   bottom: 16px;
   background-color: #06A2D3;
-  width: 2021px;
+  width: 1963px;
   height: 6px;
 }
 .secaf2::after {
@@ -60,6 +60,9 @@
   background-color: #FFDD00;
   width: 6px;
   height: 880px;
+}
+.actpadd{
+  padding-left: 244px;
 }
 }
 

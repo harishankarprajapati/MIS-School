@@ -349,3 +349,8 @@ button.next-btn:hover i {
 .actpadd{
   padding-left: 58px;
 }
+.secactptext{
+  font-family: 'Inter';
+  font-size: 18px;
+  color: #2E2B26;
+}
