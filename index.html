@@ -241,26 +241,149 @@
     </div>
 
     <!-- Activities -->
-    <div class="container-fluid secActibg">
+    <div class="container-fluid secActibg  secaf3">
         <div class="row">
             <div class="col-md-4">
                 <div class="actpadd">
                     <p class="sevhomabo">Activities</p>
                     <h4 class="whysectext">Inter <br> School Activities</h4>
-                    <p class="secactptext">Inter School Activities foster collaboration and healthy competition among students from
+                    <p class="secactptext">Inter School Activities foster collaboration and healthy competition among
+                        students from
                         different schools. They include sports, academic contests, and cultural events, promoting
                         teamwork, skill development, and broader social interaction.</p>
                 </div>
             </div>
-            <div class="col-md-8"></div>
+            <div class="col-md-8 ">
+                <div class="owl-carousel activitie owl-theme">
+                    <div class="item">
+                        <div class="activisliderbg">
+                            <div class="secactivitieimg">
+                                <img src="images/act-img1.png" alt="">
+                            </div>
+                            <div class="secactivitietext">
+                                <div class="secactvdate">
+                                    <p>August</p>
+                                    <h5>27</h5>
+                                </div>
+                                <div class="secatvtiibg">
+                                    <a href="#">
+                                        <h3 class="actvtittle">SELECTED FOR STATE LEVEL KARATE
+                                            TOURNAMENT</h3>
+
+                                        <p>The school has a large, spacious computer lab with latest operating system
+                                            and
+                                            software. The students are thus introduced to basics of computers gradually
+                                            divulging them to advanced technology under well-trained and skilled
+                                            faculty.</p>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="activisliderbg">
+                            <div class="secactivitieimg">
+                                <img src="images/act-img2.png" alt="">
+                            </div>
+                            <div class="secactivitietext">
+                                <div class="secactvdate">
+                                    <p>August</p>
+                                    <h5>9</h5>
+                                </div>
+                                <div class="secatvtiibg">
+                                    <a href="#">
+                                        <h3 class="actvtittle">SELECTED FOR STATE LEVEL KARATE
+                                            TOURNAMENT</h3>
+
+                                        <p>Superhero Creations: Design Your Own Hero lets kids unleash their creativity
+                                            by inventing unique superheroes, complete with powers, costumes, and
+                                            backstories.</p>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="activisliderbg">
+                            <div class="secactivitieimg">
+                                <img src="images/act-img1.png" alt="">
+                            </div>
+                            <div class="secactivitietext">
+                                <div class="secactvdate">
+                                    <p>August</p>
+                                    <h5>7</h5>
+                                </div>
+                                <div class="secatvtiibg">
+                                    <a href="#">
+                                        <h3 class="actvtittle">SELECTED FOR STATE LEVEL KARATE
+                                            TOURNAMENT</h3>
+
+                                        <p>The school has a large, spacious computer lab with latest operating system
+                                            and
+                                            software. The students are thus introduced to basics of computers gradually
+                                            divulging them to advanced technology under well-trained and skilled
+                                            faculty.</p>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="btn-wrap3">
+                    <button class="prev-btn3">
+                        <p><i class="bi bi-arrow-left"></i></p>
+                    </button>
+                    <button class="next-btn3">
+                        <p><i class="bi bi-arrow-right"></i></p>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
+    <!-- MIS Social -->
+    <div class="container secsocdibg">
+        <h3 class="secmistittle">MIS Social</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#"><img class="img-fluid" src="images/misyout.png" alt=""></a>
+            </div>
+            <div class="col-md-4">
+                <p> <a href="#"><img class="img-fluid" src="images/misfacbook.png" alt=""></a></p>
+                <p><a href="#"><img class="img-fluid" src="images/misinsta.png" alt=""></a></p>
+            </div>
+            <div class="col-md-4">
+                <a href="#"><img class="img-fluid" src="images/miscamra.png" alt=""></a>
+            </div>
+        </div>
+    </div>
 
+    <!-- about -->
+    <div class="container-fluid aecabbg">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="actpadd2">
+                    <h6>about</h6>
+                    <h4>About Mount International School</h4>
+                    <p>MIS is a co-educational school under the flagship of Lala Megh Raj Educational Society, Ludhiana.
+                        It started with a dream of preparing young learners to be global citizens. It aims to create an
+                        ecosystem that celebrates and nurtures the potential within each child. Believing that every
+                        child is unique, the schooling system delivers curriculum that is pedagogically sound and
+                        innovative to create a 21st century generation.</p>
 
-
-
-
+                     <p><a href="images/ciqa.pdf" target="_blank">Collaboration with CIQA- “Centre for International Qualifications and Assessment”.</a></p>   
+                </div>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+    </div>
 
 
 
@@ -282,6 +405,66 @@
     <script src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'></script>
 
     <script>
+
+        // Activities
+
+        $(document).ready(function ($) {
+            $(".owl-carousel.activitie").owlCarousel({
+                loop: false,
+                margin: 10,
+                dots: false,
+                nav: true,
+                items: 3,
+
+            });
+
+            var owl = $(".owl-carousel.activitie");
+            owl.owlCarousel();
+            $(".next-btn3").click(function () {
+                owl.trigger("next.owl.carousel");
+            });
+            $(".prev-btn3").click(function () {
+                owl.trigger("prev.owl.carousel");
+            });
+            $(".prev-btn3").addClass("disabled");
+            $(owl).on("translated.owl.carousel", function (event) {
+                if ($(".owl-prev").hasClass("disabled")) {
+                    $(".prev-btn3").addClass("disabled");
+                } else {
+                    $(".prev-btn3").removeClass("disabled");
+                }
+                if ($(".owl-next").hasClass("disabled")) {
+                    $(".next-btn3").addClass("disabled");
+                } else {
+                    $(".next-btn3").removeClass("disabled");
+                }
+            });
+
+        });
+        $('.owl-carousel.activitie').owlCarousel({
+            loop: false,
+            margin: 10,
+            nav: false,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+
+        // Activities-end
+
+
+
+
+
         // Awards
         $(document).ready(function ($) {
             $(".owl-carousel.awards").owlCarousel({

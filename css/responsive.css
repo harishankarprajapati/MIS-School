@@ -64,6 +64,37 @@
 .actpadd{
   padding-left: 244px;
 }
+.actpadd2{
+  padding-left: 288px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.secactivitieimg img {
+  width: 100% !important;
+  height: 322px;
+}
+.secactvdate {
+  border: 3px solid #D7D4D3;
+  padding: 20px 10px;
+  margin-right: 458px;
+}
+.activisliderbg {
+  background-color: #fff;
+  height: 626px;
+}
+
+.secaf3::after {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 208px;
+  background-color: #06A2D3;
+  width: 6px;
+  height: 879px;
+}
+.secsocdibg{
+  padding: 80px 10px;
+}
 }
 
 
