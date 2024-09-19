@@ -68,6 +68,7 @@
   padding-left: 288px;
   padding-top: 80px;
   padding-bottom: 80px;
+  padding-right: 60px;
 }
 .secactivitieimg img {
   width: 100% !important;
@@ -94,6 +95,22 @@
 }
 .secsocdibg{
   padding: 80px 10px;
+}
+.secadmin{
+  padding: 60px 0px 40px 0px;
+}
+.secpaddl{
+  padding-top: 30px;
+}
+
+.actpadd2 h4{
+  font-size: 50px;
+}
+.actpadd2 p{
+  font-size: 18px;
+}
+.actpadd2 p a{
+  font-size: 25px;
 }
 }
 

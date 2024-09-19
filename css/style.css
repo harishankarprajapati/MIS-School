@@ -477,28 +477,50 @@ button.next-btn3:hover i {
   padding-left: 102px;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-right: 20px;
 }
 .actpadd2 h6{
-  color: #fff;
+  color: #5D778C;
   font-family: 'Inter';
-  font-size: 12px;
+  font-size: 13px;
   text-transform: uppercase;
-}
-.actpadd2 h4{
-  color: #fff;
-  font-family: 'Inter';
-  font-size: 50px;
+  text-decoration: underline;
+  margin: 0px;
 }
 .actpadd2 p{
   color: #fff;
   font-family: 'Inter';
-  font-size: 18px;
+  font-size: 16px;
 }
 .actpadd2 p a{
   font-family: 'Inter';
-  font-size: 25px;
+  font-size: 19px;
   font-weight: 500;
   font-style: italic;
   color: #06A2D3;
   text-decoration: none;
+}
+.secadmin{
+  padding: 30px 0px 20px 0px;
+}
+.secpaddl{
+  padding-top: 20px;
+}
+.secadmin a{
+  background-color: #F3B81B;
+  font-family: 'Inter';
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+.secadmin a:hover{
+  background-color: #FFDD00;
+}
+.actpadd2 h4 {
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 46px;
 }
