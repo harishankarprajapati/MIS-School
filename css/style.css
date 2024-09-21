@@ -524,3 +524,34 @@ button.next-btn3:hover i {
   font-family: 'Inter';
   font-size: 46px;
 }
+.seccampbg{
+  padding: 50px 10px;
+
+}
+.camptittle{
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.camptext{
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.camptext h4{
+  font-family: 'Inter';
+  font-size: 30px;
+  font-weight: 500;
+  color: #051928;
+}
+.camptext p{
+  font-family: 'Inter';
+  font-size: 13px;
+  color: #5D778C;
+}
+.seclifebg{
+  padding-bottom: 50px;
+}
