@@ -809,3 +809,43 @@ justify-content: flex-end;
   color: #fff;
   font-size: 20px;
 }
+.secaabbg{
+  background-image: url(../images/aboutpagebg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0px;
+}
+.secaabbg h2{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+}
+.seciqatext{
+  font-family: 'Inter';
+  font-size: 16px;
+  color: #000;
+}
+.secstudent{
+  padding: 50px 50px 50px 0px;
+}
+.secstudent2{
+  display: flex;
+  align-items: center;
+}
+.Visionbg{
+  background-image: url(../images/Visionbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.vistext{
+  font-family: 'Inter';
+  font-size: 50px;
+  margin: 0;
+}
+.visico i{
+font-size: 50px;
+color: #1763AD;
+}
