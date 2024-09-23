@@ -342,29 +342,36 @@ button.next-btn:hover i {
   color: #2E2B26;
   padding-top: 10px;
 }
-.secActibg{
+
+.secActibg {
   background-color: #EAEBEC;
   padding: 80px 20px 80px 50px;
 }
-.actpadd{
+
+.actpadd {
   padding-left: 58px;
 }
-.secactptext{
+
+.secactptext {
   font-family: 'Inter';
   font-size: 18px;
   color: #2E2B26;
 }
-.activisliderbg{
+
+.activisliderbg {
   background-color: #fff;
   height: 550px;
 }
-.secactivitieimg img{
+
+.secactivitieimg img {
   width: 100% !important;
   height: 223px;
 }
-.secactivitietext{
+
+.secactivitietext {
   padding: 30px;
 }
+
 .secactvdate {
   border: 3px solid #D7D4D3;
   padding: 10px;
@@ -372,40 +379,47 @@ button.next-btn:hover i {
   text-align: center;
   border-radius: 8px;
 }
-.secactvdate p{
+
+.secactvdate p {
   font-family: 'Inter';
   font-size: 9px;
   text-transform: uppercase;
   color: #2E2B26;
   margin: 0;
 }
-.secactvdate h5{
+
+.secactvdate h5 {
   font-family: 'Inter';
   font-size: 30px;
   color: #2E2B26;
   margin: 0;
 }
-.actvtittle{
+
+.actvtittle {
   font-family: 'Inter';
   font-size: 20px;
   text-transform: uppercase;
   color: #000;
   padding-top: 10px;
 }
-.secatvtiibg a{
+
+.secatvtiibg a {
   text-decoration: none;
 }
-.secatvtiibg a:hover h3{
+
+.secatvtiibg a:hover h3 {
   color: #1763AD;
 }
-.secatvtiibg p{
+
+.secatvtiibg p {
   font-family: 'Inter';
   font-size: 15px;
   color: #2E2B26;
 }
+
 /* activitie slider */
-.activitie .owl-nav.disabled{
-display: none;
+.activitie .owl-nav.disabled {
+  display: none;
 }
 
 button.prev-btn3 {
@@ -445,6 +459,7 @@ button.prev-btn3:hover i {
 button.next-btn3:hover i {
   border: 1px solid #1763AD;
 }
+
 /* activitie-end */
 
 .secaf3 {
@@ -460,26 +475,31 @@ button.next-btn3:hover i {
   width: 6px;
   height: 803px;
 }
-.secsocdibg{
+
+.secsocdibg {
   padding: 50px 10px;
 }
-.secmistittle{
+
+.secmistittle {
   font-family: 'Inter';
   font-size: 50px;
   color: #2E2B26;
   text-align: center;
   padding-bottom: 20px;
 }
-.aecabbg{
+
+.aecabbg {
   background-color: #122B67;
 }
-.actpadd2{
+
+.actpadd2 {
   padding-left: 102px;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 20px;
 }
-.actpadd2 h6{
+
+.actpadd2 h6 {
   color: #5D778C;
   font-family: 'Inter';
   font-size: 13px;
@@ -487,12 +507,14 @@ button.next-btn3:hover i {
   text-decoration: underline;
   margin: 0px;
 }
-.actpadd2 p{
+
+.actpadd2 p {
   color: #fff;
   font-family: 'Inter';
   font-size: 16px;
 }
-.actpadd2 p a{
+
+.actpadd2 p a {
   font-family: 'Inter';
   font-size: 19px;
   font-weight: 500;
@@ -500,13 +522,16 @@ button.next-btn3:hover i {
   color: #06A2D3;
   text-decoration: none;
 }
-.secadmin{
+
+.secadmin {
   padding: 30px 0px 20px 0px;
 }
-.secpaddl{
+
+.secpaddl {
   padding-top: 20px;
 }
-.secadmin a{
+
+.secadmin a {
   background-color: #F3B81B;
   font-family: 'Inter';
   font-size: 18px;
@@ -516,42 +541,268 @@ button.next-btn3:hover i {
   color: #000;
   font-weight: 700;
 }
-.secadmin a:hover{
+
+.secadmin a:hover {
   background-color: #FFDD00;
 }
+
 .actpadd2 h4 {
   color: #fff;
   font-family: 'Inter';
   font-size: 46px;
 }
-.seccampbg{
+
+.seccampbg {
   padding: 50px 10px;
 
 }
-.camptittle{
+
+.camptittle {
   text-align: center;
   font-family: 'Inter';
   font-size: 50px;
   padding-bottom: 20px;
 }
 
-.camptext{
+.camptext {
   background-color: #fff;
   padding: 20px;
   text-align: center;
 }
 
-.camptext h4{
+.camptext h4 {
   font-family: 'Inter';
   font-size: 30px;
   font-weight: 500;
   color: #051928;
 }
-.camptext p{
+
+.camptext p {
   font-family: 'Inter';
   font-size: 13px;
   color: #5D778C;
 }
-.seclifebg{
-  padding-bottom: 50px;
+
+.seclifebg {
+  padding: 50px 0px;
+}
+
+.caamsec h6 {
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1763AD;
+  letter-spacing: 5px;
+}
+
+.caamsec hr {
+  opacity: 1;
+  color: #C0160E;
+  width: 15%;
+  margin-top: 0px;
+  border: 2px solid;
+
+}
+
+.caamsec h4{
+  font-family: 'Inter';
+  font-size: 50px;
+  color: #051928;
+}
+.caamsec p{
+  font-family: 'Inter';
+  font-size: 16px;
+  color: #5D778C;
+  margin: 0;
+}
+.campbtn{
+  padding: 40px 0px;
+}
+.campbtn a{
+  font-family: 'Barlow';
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #051928;
+  text-decoration: none;
+  background: #FFC72C;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+.newsboxtext{
+  padding: 20px;
+}
+.newsboxtext h4{
+  font-family: 'Barlow';
+  font-size: 18px;
+  font-weight: 700;
+  color:#051928 ;
+}
+.newsboxtext p{
+  font-family: 'Inter';
+  font-size: 14px;
+  color: #5D778C;
+}
+.newstextbtn a{
+background: #1763AD;
+border-radius: 50px;
+font-size: 18px;
+padding: 12px 15px;
+color: #fff;
+}
+.newstextbtn a:hover{
+background: #FFC72C;
+}
+.secaf:hover::after{
+  background-color: #FFDD00;
+}
+.secaf:hover::before{
+  background-color: #773141;
+}
+.secaf2:hover::after{
+  background-color: #06A2D3;
+}
+.secaf3:hover::after{
+  background-color: #FFDD00;
+}
+.schobg{
+  padding: 50px 0px;
+}
+.inttextsec{
+  text-align: center;
+}
+.inttextsec h6{
+  font-family: 'Inter';
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #1763AD;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.inttextsec hr {
+  opacity: 1;
+  color: #1763AD;
+  width: 29%;
+  margin: auto;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: 2px solid;
+}
+.inttextsec h4{
+  font-family: 'Inter';
+  font-size: 50px;
+  color: #051928;
+  padding-bottom: 20px;
+}
+.secmount a{
+  text-decoration: none;
+}
+.secmounttext{
+  padding: 10px;
+}
+.secmounttext h4{
+  text-transform: capitalize;
+  text-align: center;
+  color: #051928;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0px;
+}
+/* footer */
+.secfooterbg{
+background-image: url(../images/footerbg.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #1762AD;
+padding: 50px;
+}
+.footertext{
+  text-align: center;
+}
+.footertext h6{
+  font-family: 'Inter';
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.footertext h4{
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+}
+.footertext p{
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+.footerbtn {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.footerbtn a{
+  font-family: 'Inter';
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #0081FE;
+  border-radius: 50px;
+  padding: 15px 30px;
+}
+.footerbtn a:hover{
+  background-color: #F3B81B;
+}
+.footertext p a{
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+}
+.footertext hr {
+  color: #fff;
+}
+.secprt{
+display: flex;
+justify-content: flex-end;
+}
+.secprt p {
+  padding-left: 20px;
+}
+.secprt p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Inter';
+  font-size: 16px;
+}
+.socalsec{
+  display: flex;
+  justify-content: flex-end;
+}
+.socalsec p{
+  border: 1px solid #2e72b5;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  text-align: center;
+  display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.socalsec p:hover{
+  background: #0081FE;
+}
+.socalsec p a i {
+  color: #fff;
+  font-size: 20px;
 }
