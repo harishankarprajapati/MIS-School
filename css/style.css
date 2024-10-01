@@ -1030,3 +1030,10 @@ textarea.form-control {
 .secsubbg:hover{
   background-color: #FFDD00;
 }
+.newlogosec{
+  width: 70%;
+  margin: auto !important;
+}
+.secpadtex{
+  padding-top: 30px;
+}
