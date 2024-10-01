@@ -1037,3 +1037,6 @@ textarea.form-control {
 .secpadtex{
   padding-top: 30px;
 }
+.seccbttt{
+  text-align: left !important;
+}
