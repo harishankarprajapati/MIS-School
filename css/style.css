@@ -1040,3 +1040,22 @@ textarea.form-control {
 .seccbttt{
   text-align: left !important;
 }
+.seccontext p{
+  font-family: 'Inter';
+  font-size: 18px;
+  color: #000; 
+}
+.seccontext h4{
+  font-family: 'Inter';
+  font-size: 20px;
+  color: #000; 
+  padding-top: 20px
+}
+.fulltext3 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.padsec {
+  text-align: center;
+  padding: 0px 10px !important;
+}
