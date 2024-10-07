@@ -1068,3 +1068,21 @@ textarea.form-control {
   justify-content: flex-start;
   padding-bottom: 12px;
 }
+.secsecholcli{
+  font-family: 'Inter';
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  color: #000; 
+}
+
+.secmss{
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: #000; 
+}
