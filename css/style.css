@@ -984,6 +984,7 @@ font-family: 'Inter';
   font-family: 'Inter';
   font-size: 18px;
   color: #000;
+  margin: 0px;
 }
 .secsummtext{
   padding-bottom: 50px;
@@ -1058,4 +1059,12 @@ textarea.form-control {
 .padsec {
   text-align: center;
   padding: 0px 10px !important;
+}
+.ft-list{
+  display: flex;
+  align-items: flex-start;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  padding-bottom: 12px;
 }
